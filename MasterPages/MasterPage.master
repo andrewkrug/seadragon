@@ -1,0 +1,31 @@
+<%@ Master Language="C#" CodeBehind="MasterPage.Master.cs" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head runat="server">
+    <meta http-equiv="X-UA-Compatible" content="IE=8" />
+    <title>Southern Oregon University : SeaDragon Password Management</title>
+    <link rel="stylesheet" type="text/css" href="StyleSheet.css" />
+    <meta name="robots" content="noindex, nofollow" />
+    <asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+
+</head>
+
+<body>
+    <div class="MainArea" runat="server">
+        <div class="Header">
+            Southern Oregon University</div>
+
+        <div class="GroupLargeMargin">
+            <div class="TextSizeXLarge">
+                SeaDragon Password Management<br />
+                <br />
+                <img src="img/logo_color_seadragon_90.png" />
+            </div>
+        </div>
+        <div class="MainActionContainer">
+            <asp:ContentPlaceHolder ID="Main" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+    </div>
+</body>
+</html>

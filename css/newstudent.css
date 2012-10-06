@@ -1,0 +1,107 @@
+﻿body
+{
+	margin: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	background: white;
+}
+
+#header {
+	position: relative;
+	height: 60px;
+	background-color: white;
+	vertical-align: middle;
+    text-align: center;
+}
+
+#header img { display: inline; }
+
+#header h1 { 
+    position: absolute;
+    left: 5px;
+    top: 20px;
+    color: #700;
+    margin: 0;
+    padding: 0;
+    font-size: 180%;
+    text-align: center;
+    width: 604px;
+}
+
+#main 
+{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+p { 
+    margin: 0 20px 0 10px; 
+    padding: .5em;
+    font-size: 90%;
+}
+
+p.red 
+{
+    color: #b00;    
+}
+
+form.adminform {
+	padding: .2em;
+	margin: 1em;
+	background-color: #eee;
+	font-size: 90%;
+	width: 30em;
+}
+
+form.adminform fieldset {
+	background-color: #eef;
+}
+
+form.adminform label {
+	padding: .2em;
+	float: left;
+	width: 15em;
+	text-align: right;
+}
+
+form.adminform br {
+	clear: left;
+}
+
+fieldset#stupasswd { display: none; }
+
+#byid, #byname {display: none; }
+
+
+table
+{
+    margin: 10px;
+	border: 1px solid #AAA;
+	border-collapse: collapse;
+	background-color: #eee;
+	font-size: 90%;
+}
+
+
+
+table td
+{
+    padding: .5em;
+}
+
+table td.right
+{
+    text-align: right;
+}
+
+
+ul 
+{
+	font-size: 90%;
+}
+
+
+#policy {
+    margin: 10px 20px;
+    font-size: 80%;
+}

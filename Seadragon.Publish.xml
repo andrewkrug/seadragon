@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="http://apweb08v.home.ad1.sou.edu" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Seadragon/seadragon-test" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="True" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="False" profileName="TEST apweb08v" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="SOU\defreezadmin" savePWD="False" userPWD="" SelectedForPublish="True" />
+  <publishProfile publishUrl="http://apweb08v.home.ad1.sou.edu" deleteExistingFiles="False" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="Seadragon/Seadragon" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="False" msdeployMarkAsApp="False" profileName="PRODUCTION apweb08v" publishMethod="MSDeploy" replaceMatchingFiles="True" userName="SOU\defreezadmin" savePWD="False" userPWD="" SelectedForPublish="False" />
+</publishData>
